@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.0">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3249" dy="2333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2156" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -215,14 +215,15 @@
         <mxCell id="v7E3GL3zHJ6sfxkllwjM-70" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="209" y="-644.5" width="74" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8gqAwL_LUSKlewkXR1sS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v7E3GL3zHJ6sfxkllwjM-71">
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v7E3GL3zHJ6sfxkllwjM-71" target="8gqAwL_LUSKlewkXR1sS-50">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="880" y="-850" as="targetPoint" />
+            <mxPoint x="860" y="-980" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="410" y="-610" />
+              <mxPoint x="410" y="-609" />
               <mxPoint x="410" y="-540" />
               <mxPoint x="1000" y="-540" />
-              <mxPoint x="1000" y="-850" />
+              <mxPoint x="1000" y="-980" />
+              <mxPoint x="-860" y="-980" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -649,6 +650,36 @@
         </mxCell>
         <mxCell id="8gqAwL_LUSKlewkXR1sS-60" value="ScoreBoardShown" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="-450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-62" value="incrementing attempt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;opacity=0;fillColor=default;fillStyle=solid;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-440" y="-445" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-64" value="&lt;div&gt;incrementing&lt;/div&gt;&lt;div&gt;score&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-535" y="-410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-65" value="&lt;div&gt;updating record&amp;nbsp;&lt;/div&gt;&lt;div&gt;if it is the same&amp;nbsp;&lt;/div&gt;&lt;div&gt;as current score&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-790" y="-395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-66" value="moving to the next frame" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-224" y="-312" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-67" value="&lt;div&gt;updating position&amp;nbsp;&lt;/div&gt;&lt;div&gt;and obtaining current coords&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-310" y="-395" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-68" value="&lt;div&gt;updating position&amp;nbsp;&lt;/div&gt;&lt;div&gt;and obtaining current coords&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-80" y="-395" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-69" value="&lt;div&gt;sending request to StatisticsManager,&amp;nbsp;&lt;/div&gt;&lt;div&gt;and processing output to the user`s screen&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="-515" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-70" value="moving to the next frame" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="-890" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-71" value="&lt;div&gt;restarting the game&lt;/div&gt;&lt;div&gt;resetting any characteristic&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="995" y="-772.5" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gqAwL_LUSKlewkXR1sS-72" value="exiting" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="-480" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
